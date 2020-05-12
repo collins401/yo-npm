@@ -1,0 +1,19 @@
+{
+  "sorts": [
+    "布局组件",
+    "基础组件",
+    "反馈组件",
+    "展示组件"
+  ],
+  "packages": [
+    {
+      "name": "Button",
+      "chnName": "按钮",
+      "desc": "按钮组件样式",
+      "type": "component",
+      "sort": "1",
+      "showDemo": true,
+      "author": "谢飞太"
+    }
+  ]
+}
