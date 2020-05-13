@@ -1,6 +1,6 @@
 <template>
   <div class="yo-btn">
-    <slot>确定</slot>
+    <slot>确定21</slot>
   </div>
 </template>
 
