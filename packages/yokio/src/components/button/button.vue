@@ -46,6 +46,7 @@ export default {
         'radius': this.radius,
         'plain': this.plain,
         'disabled': this.disabled,
+        'custom-color': this.color
       }
     },
     sty () {
@@ -59,7 +60,6 @@ export default {
       return {
         'backgroundColor': bgColor,
         'color': txtColor,
-        'borderColor': borderColor
       }
     }
   }

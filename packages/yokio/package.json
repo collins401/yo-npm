@@ -1,8 +1,7 @@
 {
   "name": "yokio",
-  "version": "0.0.1",
-  "private": true,
-  "main": "lib/Yokio.umd.js",
+  "version": "0.0.2",
+  "main": "lib/yokio.umd.js",
   "publishConfig": {
     "access": "public"
   },

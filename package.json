@@ -5,7 +5,10 @@
     "bootstrap": "lerna bootstrap",
     "serve": "lerna run --parallel serve",
     "release": "lerna run --parallel release",
-    "release:version": "node ./scripts/release.js"
+    "release:version": "node ./scripts/release.js",
+    "change": "npm run release && lerna run --parallel publish",
+    "change:version": "npm run release:version && lerna run --parallel publish",
+    "pub": "lerna run --parallel lib && lerna version && lerna publish from-package"
   },
   "devDependencies": {
     "eslint": "^7.0.0",
