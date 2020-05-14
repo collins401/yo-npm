@@ -1,15 +1,15 @@
 {
-  "name": "yo-ui",
+  "name": "yokio",
   "version": "0.0.1",
   "private": true,
-  "main": "lib/yo-ui.umd.js",
+  "main": "lib/Yokio.umd.js",
   "publishConfig": {
     "access": "public"
   },
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lib": "vue-cli-service build --target lib --name yo-ui --dest lib src/main.js",
+    "lib": "vue-cli-service build --target lib --name yokio --dest lib src/main.js",
     "test:unit": "vue-cli-service test:unit",
     "release": "standard-version"
   },

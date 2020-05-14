@@ -2,9 +2,9 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-import YoUI from '@src/main.js'
+import Yokio from '@src/main.js'
 
-YoUI.install(Vue)
+Yokio.install(Vue)
 Vue.config.productionTip = false
 /* eslint-disable no-new */
 new Vue({

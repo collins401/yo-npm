@@ -1,0 +1,61 @@
+@import '../styles/index';
+
+.yo-button {
+  appearance: none;
+  outline: 0;
+  box-sizing: border-box;
+  padding: 0 10px;
+  line-height: 30px;
+  border: 1px solid transparent;
+  margin: 0;
+  text-align: center;
+  vertical-align: middle;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-word;
+  white-space: nowrap;
+  display: inline-block;
+  position: relative;
+  border-radius: 2px;
+  font-size: 14px;
+  color: rgba(69,69,69,1);
+  &.plain {
+    border: 1px solid rgba(151,151,151,0.3);
+    background-color: #fff;
+    color: rgba(60,60,67,0.6);
+  }
+  &.block {
+    width: 100%;
+  }
+  &.disabled {
+    opacity: 0.6;
+    pointer-events: none;
+  }
+  @each $key, $value in $type {
+    &--#{$key} {
+      background-color: $value;
+      color: #fff;
+      &.plain {
+        background-color: #fff;
+        color: $value;
+        border-color: $value;
+      }
+    }
+  }
+  &.large {
+    line-height: 46px;
+    border-radius: 6px;
+    font-size: 16px;
+    padding: 0 20px;
+    font-weight: 500;
+  }
+  &.small {
+    line-height: 18px;
+    border-radius: 2px;
+    font-size: 12px;
+    padding: 0 4px;
+  }
+  &.radius {
+    border-radius: 24px;
+  }
+}

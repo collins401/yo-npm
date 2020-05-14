@@ -1,0 +1,14 @@
+$type: (
+  primary: #4DB87F,
+  danger: #EB5B58,
+  warn: #FCAE3C
+);
+$size: (
+  "small": 12px,
+  "large": 16px
+);
+$z-layers: (
+  "mask": 100,
+  "toast": 102,
+  "dialog": 101
+);

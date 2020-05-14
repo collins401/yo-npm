@@ -1,6 +1,5 @@
 <template>
-  <button :class="`${b()} ${btnClass}`"
-    :type="type">
+  <button type="button" class="yo-button" :class="btnClass" :style="sty">
     <slot></slot>
   </button>
 </template>
@@ -32,19 +31,37 @@ export default {
     size: {
       type: String,
       default: '',
+    },
+    color: {
+      type: String,
+      default: '',
     }
   },
   computed: {
-    btnClass() {
+    btnClass () {
       return {
-        [this.type]: true,
-        radius: this.radius,
-        block: this.block,
-        [this.size]: true,
-        plain: this.reverse,
-        disabled: this.disabled,
+        ['yo-button--' + this.type]: this.type,
+        [this.size]: this.size,
+        'block': this.block,
+        'radius': this.radius,
+        'plain': this.plain,
+        'disabled': this.disabled,
       }
     },
+    sty () {
+      let bgColor = ''
+      let txtColor = ''
+      let borderColor = this.color
+      if (this.color) {
+        bgColor = this.plain ? '#fff' : this.color
+        txtColor = this.plain ? this.color : '#fff'
+      }
+      return {
+        'backgroundColor': bgColor,
+        'color': txtColor,
+        'borderColor': borderColor
+      }
+    }
   }
 }
 </script>

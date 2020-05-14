@@ -2,14 +2,14 @@
   <div class="owl-doc-header">
     <div class="container">
       <div class="logo">
-        <a href="#/">OwlUI Mobile</a>
+        <a href="#/">Yokie Mobile</a>
       </div>
       <div class="bar-nav">
         <ul class="">
           <li :class="{'active': active}"><a href="#/">首页</a></li>
           <li :class="{'active': !active}"><a href="#/intro">指南</a></li>
           <li><a href="javascript:;" target="_blank">示例</a></li>
-          <li><a href="https://github.com/collins401/owl-ui" target="_blank" class="btn-github"></a></li>
+          <li><a href="https://github.com/collins401/yo-npm" target="_blank" class="btn-github"></a></li>
         </ul>
       </div>
     </div>

@@ -48,4 +48,7 @@ a {
   color: #444;
   margin-bottom: 10px;
 }
+.inner {
+  padding: 10px 20px;
+}
 </style>
