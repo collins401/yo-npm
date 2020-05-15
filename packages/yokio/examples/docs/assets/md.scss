@@ -3,7 +3,7 @@ $--title-color:#515561;
 $--meta-title-color:#515561;
 $--content-color:#5e6d82;
 
-section.view {
+.doc-view {
   font-size: 14px;
   a.md {
     text-decoration: underline;
@@ -110,7 +110,6 @@ section.view {
     padding: 0 .5em;
   }
   table.table {
-    display: block;
     width: 100%;
     background-color: #fff;
     color: #5e6d82;
@@ -119,15 +118,14 @@ section.view {
     overflow: auto;
     margin-bottom: 50px;
     th {
-      border-top: 1px solid #f3f7fa;
+      border: 1px solid #f3f7fa;
       background-color: #FAFBFC;
-      border-bottom: 1px solid #f3f7fa;
       padding: 10px 8px;
     }
     td {
-      border-top: 1px solid #f3f7fa;
-      border-bottom: 1px solid #f3f7fa;
+      border: 1px solid #f3f7fa;
       padding: 10px 8px;
+      background-color: #fff;
     }
   }
 }

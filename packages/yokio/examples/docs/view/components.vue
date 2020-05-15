@@ -63,7 +63,7 @@ export default {
 <style lang="scss">
 .owl-doc-components h1 .qrcode {
   position: relative;
-  vertical-align: middle;
+  vertical-align: top;
   display: inline-block;
   margin-left: 20px;
   width: 22px;
