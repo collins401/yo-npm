@@ -14,6 +14,15 @@
       "sort": "1",
       "showDemo": true,
       "author": "谢飞太"
+    },
+    {
+      "name": "Tag",
+      "chnName": "标签",
+      "desc": "标签样式",
+      "type": "component",
+      "sort": "1",
+      "showDemo": true,
+      "author": "谢飞太"
     }
   ]
 }
